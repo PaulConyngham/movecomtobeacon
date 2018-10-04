@@ -20,7 +20,7 @@ import numpy as np
 from numpy import linalg as LA
 
 
-class MoveComtoBeacon(gym.Env):
+class MoveComToBeacon(gym.Env):
     metadata = {
         'render.modes': ['human', 'rgb_array'],
         'video.frames_per_second': 50
