@@ -1,7 +1,7 @@
 
 from gym.envs.registration import register
 
-from .MoveComToBeacon import MoveComtoBeacon
+from .movecomtobeacon import MoveComtoBeacon
 
 
 environments = [['MoveComToBeacon', 'v0']]
